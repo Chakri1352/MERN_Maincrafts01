@@ -1,5 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import "./style.css";
+
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -13,7 +15,8 @@ function App() {
 
   return (
     <div style={{ padding: "40px", fontFamily: "Arial" }}>
-      <h1>MERN Internship Task</h1>
+
+      <h1>Maincrafts Task 1</h1>
 
       {users.length === 0 && <p>No users found</p>}
 
