@@ -27,7 +27,7 @@ app.get("/api/users", async (req,res)=>{
 
 // Seed test data (run once)
 app.get("/seed", async(req,res)=>{
-  await User.create([{name:"Rohit"}, {name:"Soni"}]);
+  await User.create([{name:"chakri"}, {name:"phani"}]);
   res.send("Seeded");
 });
 
